@@ -72,7 +72,7 @@ Make sure the following are installed on your system:
 
 - **Python 3.8+**
 - **Git**
-- **Google Chrome Browser**
+- **Browser**
 
 ---
 
@@ -95,10 +95,7 @@ py -m venv venv
 Activate the Environment:
 You must activate the environment every time you start a new terminal session.
 
-Operating System	           Command to Use
 Windows (PowerShell)	        .\venv\Scripts\activate
-Windows (Command Prompt / CMD)	.\venv\Scripts\activate.bat
-macOS / Linux	                 source venv/bin/activate
 
 #### 3. Install Dependencies:
 With the virtual environment active, install all necessary packages (selenium, pytest, webdriver-manager):
